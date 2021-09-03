@@ -283,6 +283,7 @@ nav .logo{
         width: 120%;
     }
     .navbar ul{
+        z-index: 1000;
         position: fixed;
         top: 80px;
         left: -100%;
@@ -313,6 +314,7 @@ nav .logo{
         width: 100%;
     }
     .nav-media ul{
+        z-index: 1000;
         position: fixed;
         top:90%;
         left: -100%;
@@ -448,6 +450,7 @@ nav .logo{
         width: 120%;
     }
     .navbar ul{
+        z-index: 1000;
         position: fixed;
         top: 80px;
         left: -100%;
@@ -478,6 +481,7 @@ nav .logo{
         width: 100%;
     }
     .nav-media ul{
+        z-index: 1000;
         position: fixed;
         top:90%;
         left: -100%;
