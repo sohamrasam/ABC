@@ -607,6 +607,172 @@ nav .logo{
         line-height: 10px;
     }
 }
+@media (max-width: 398px){
+    .checkbtn{
+        display: block;
+        padding: 0 100;
+    }
+    .logo{
+        width: 120%;
+    }
+    .navbar ul{
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        background:#2c3e50;
+        text-align: center;
+        display: block;
+        transition: all .5s;
+    }
+    .navbar ul li{
+        margin: 40px 0;
+    }
+    .navbar ul li a{
+        font-size: 20px;
+        display: block;
+    }
+    .navbar ul li::after{
+        content: "";
+        width: 0%;
+        height: 4px;
+        background:red;
+        display:block;
+        margin: auto;
+        transition: 0.3s;
+    }
+    .navbar ul li:hover::after{
+        width: 100%;
+    }
+    .nav-media ul{
+        position: fixed;
+        top:90%;
+        left: -100%;
+        background:#2c3e50;
+        height: 100vh;
+        width: 100%;
+        transition: all .5s;
+       
+    }
+    .nav-media ul li{
+        margin: 0 10px 15px 25;
+    }
+    #check:checked ~ .navbar ul{
+        left: 0;
+    } 
+    #check:checked ~ .nav-media ul{
+        left: 0;
+    }
+    #check:checked ~ .checkbtn i:before{
+        content: "\f00d";
+    }
+    .midtext{
+        font-size: 25px;
+        padding: 220 60;
+    }
+    .googlemap{
+        position: relative;
+        margin: 0 0 ;
+    }
+    .endlogo{
+
+        text-align: center;
+    }
+    .text123{
+        font-size: 20px;
+    }
+    .endsocial-menu{
+    
+        padding: 30;
+        margin:2 4;
+    }
+    .contactus{
+        padding: 40 45;
+    }
+    .contact-us{
+        padding: 0 45;
+    }
+    .contactus ul{
+        color:#EE4B2B;
+        padding:30 0;
+    }
+    .contactus ul li {
+        letter-spacing: 35;
+        display:absolute;
+        list-style: none;
+        padding:2 4;
+    }
+    .contactus ul li .fa {
+        font-size: 40px;
+    }
+    .contact-us ul{
+        color:#EE4B2B;
+        padding:30 10;
+    }
+    .contact-us ul li {
+        letter-spacing: 45;
+        display: absolute;
+        list-style: none;
+        padding: 0;
+    }
+    .contact-us ul li .fa {
+        font-size: 38px;
+    }
+    .contactustext{
+        color:white;
+        position:absolute;
+        font-size: 15px;
+        margin:40 50;
+    
+    }
+    .contactustext1{
+        color:white;
+        position:absolute;
+        font-size: 7px;
+        margin: 100px 30px;
+        line-height: 10px;
+    }
+    .contactustext2{
+        color:white;
+        position:absolute;
+        font-size: 15px;
+        margin: 35px 170px;
+    }
+    .contactustext3{
+        color:white;
+        position:absolute;
+        font-size: 7px;
+        line-height: 10px;
+        margin: 100px 150px;
+    }
+    .contact-ustext{
+        color:white;
+        position:absolute;
+        font-size: 12px;
+        margin: 42px 62px;
+    }
+    .contact-ustext1{
+        color:white;
+        position:absolute;
+        font-size: 7px;
+        margin: 100px 30px;
+        line-height: 10px;
+    }
+    .contact-ustext2{
+        color:white;
+        position:absolute;
+        font-size: 12px;
+        margin: 40px 195px;
+    }
+    .contact-ustext3{
+        color:white;
+        position:absolute;
+        font-size: 7px;
+        margin: 100px 150px;
+        line-height: 10px;
+    }
+}
 
 @media (max-width: 384px){
     .checkbtn{
